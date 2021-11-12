@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 100px 20px 0;
+}
+
+img {
+    display: inline-block;
+}
+
+.nicknames {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.father {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: linear-gradient(90deg, rgb(126, 8, 110), red);
+    border-radius: 50%;
+}
+
+.nickname{
+    width: 375px;
+    height: 375px;
+    background-image: url(../images/rasm.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: dimgray;
+}
+
+.child {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 355px;
+    background-color: lightgreen;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.child2 {
+    background-color: red;
+}
